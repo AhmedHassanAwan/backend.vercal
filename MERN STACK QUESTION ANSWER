@@ -1,0 +1,114 @@
+
+MERN Stack ek full-stack JavaScript stack hai jo web applications banane ke liye use hota hai.
+Ismein frontend se le kar backend aur database tak JavaScript hi use hoti hai.
+
+M — MongoDB
+
+NoSQL database hai
+
+Data JSON-like documents mein store hota hai
+
+Flexible schema, scalable
+
+E — Express.js
+
+Node.js ka lightweight framework
+
+REST APIs, routes aur middleware handle karta hai
+
+R — React.js
+
+Frontend library
+
+Component-based UI banata hai
+
+Fast rendering with Virtual DOM
+
+N — Node.js
+
+JavaScript runtime environment
+
+Backend server create karta hai
+
+APIs, authentication, database connection handle karta hai
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+PERFECT INTERVIEW ANSWER
+
+Frontend aur Backend web application ke do major parts hote hain.
+
+🔹 Frontend
+
+User interface hota hai
+
+User directly isi se interact karta hai
+
+MERN mein React.js frontend ke liye use hota hai
+
+Buttons, forms, dashboards, tables — sab frontend hota hai
+
+🔹 Backend
+
+Server-side logic hota hai
+
+APIs, authentication, authorization handle karta hai
+
+Node.js runtime environment hota hai
+
+Express.js Node ke upar framework hai jo REST APIs banata hai
+
+MongoDB database hai jahan data store hota hai
+
+👉 Flow example:
+React (UI) → API call → Express/Node (logic) → MongoDB (data)
+
+🧠 Interview Smart Line (Yaad rakho)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+“Frontend handles presentation, backend handles business logic and data.”
+
+✅ Interview ke liye PERFECT answer 🏆
+
+👉 Agar interviewer poochay:
+
+❓ REST API kya hoti hai?
+
+Best answer:
+
+REST API frontend aur backend ke beech communication ka tareeqa hoti hai jisme hum HTTP methods jaise GET, POST, PUT, DELETE ka use karke data ko create, read, update aur delete karte hain.
+
+❓ Express.js mein REST API kaise banate ho?
+
+Best answer:
+
+Express.js mein hum routes banate hain jaise app.get, app.post, app.put aur app.delete.
+Har route ek specific HTTP request handle karta hai aur JSON response return karta hai.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+🔹 Interview ke liye ready-made answer 🧠✨
+
+👉 Q: REST API kya hoti hai?
+
+REST API ek architectural style hai jo client aur server ke beech communication ke liye use hoti hai.
+Ye HTTP methods (GET, POST, PUT, DELETE) ke through CRUD operations perform karti hai.
+
+👉 Q: Express.js mein REST API kaise banate ho?
+
+Express.js mein hum routes create kartay hain jahan different HTTP methods use hotay hain.
+Har route ek specific task perform karta hai jaise data fetch, create, update ya delete.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+vite kia hay ?
+
+vite aik bundlter 

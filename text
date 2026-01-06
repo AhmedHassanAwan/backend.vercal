@@ -1,0 +1,362 @@
+1️⃣ Backend kya hota hai?
+
+Answer:
+Backend wo part hota hai jo:
+
+Database se baat karta hai
+
+Business logic likhta hai
+
+Authentication handle karta hai
+
+Frontend ko data deta hai (API)
+
+📌 Frontend = UI
+📌 Backend = Brain
+
+
+2️⃣ Express kya hai?
+
+Short Answer:
+Express Node.js ka framework hai jo server + APIs banana easy karta hai.
+
+Simple words:
+
+Express = server banana ka shortcut
+
+Without Express:
+
+HTTP module
+
+Zyada code
+
+Zyada headache 😵
+
+With Express:
+
+Clean
+
+Fast
+
+Industry standard
+
+📌 Interview line:
+
+Express is a minimal and flexible Node.js web application framework
+
+
+
+
+
+3️⃣ Express package hai ya language?
+
+Answer:
+❌ Language nahi
+❌ Server nahi
+
+✅ NPM package
+✅ Node.js ke upar ka framework
+
+
+
+
+✅ Short & Correct Answer (Interview Ready)
+
+👉 Express ek package / framework hai
+❌ Express language nahi hai
+
+🧠 Ab asaan zubaan me samjho
+🔹 JavaScript kya hai?
+
+👉 Language
+
+🔹 Node.js kya hai?
+
+👉 Runtime environment
+(JavaScript ko browser ke bahar chalata hai)
+
+🔹 Express kya hai?
+
+👉 Node.js ka framework / package
+jo server aur API banana asaan karta hai
+
+
+
+
+q - differnece between language , framework , library 
+
+Language wo hoti hai jisme hum code likhte hain aur logic banate hain.
+Framework us language par bana hota hai jo hume ready system deta hai taake app asaani se ban jaye.
+Language basic hoti hai, framework kaam fast aur organized kar deta hai.
+Jaise JavaScript language hai aur React us ka framework hai.
+
+
+
+
+
+
+Official Release: The name was officially changed to "JavaScript" for its final release on December 4, 1995, as part of a joint announcement between Netscape and Sun Microsystems.
+
+
+
+
+
+
+4️⃣ Node.js kya hai?
+Answer:
+Node.js ek JavaScript runtime environment hai jo JS ko browser ke bahar chalata hai.    
+📌 Simple Words
+
+    Pehle JavaScript sirf browser me chalti thi 
+    Node.js ne JavaScript ko computer / server par chalana possible bana diya:
+    Browser JavaScript sirf UI ke liye hoti hai, jab ke Node.js JavaScript ko server-side kaam ke liye powerful bana deta hai.  
+5️⃣ JavaScript kya hai?
+Answer:
+JavaScript ek programming language hai jo web pages ko interactive banati hai.
+
+
+
+
+
+
+
+
+
+6️⃣ Server kya hota hai?
+
+Answer:
+Server wo program hota hai jo:
+
+Request sunta hai
+
+Response bhejta hai
+
+📌 Example:
+
+Frontend ➝ request ➝ Server ➝ response ➝ Frontend
+
+
+
+
+
+7️⃣ API kya hoti hai?
+
+Answer:
+API ek contract hoti hai frontend aur backend ke darmiyan.
+
+📌 Example:
+
+GET /api/doctors
+POST /api/login
+
+
+🔟 Middleware kya hota hai? (IMPORTANT)
+
+Answer:
+Middleware request aur response ke beech chalta hai.
+
+📌 Flow:
+
+Request ➝ Middleware ➝ Controller ➝ Response
+
+Examples:
+
+auth check
+
+token verify
+
+body parse
+
+
+📌 Interview:
+
+Middleware is a function that runs between request and response.
+
+
+📌 Interview:
+
+Middleware is a function that runs between request and response.
+
+1️⃣3️⃣ nodemon kya hota hai?
+
+Answer:
+Server ko auto-restart karta hai.
+
+📌 Without nodemon:
+
+stop → start → stop → start 😡
+
+
+📌 With nodemon:
+
+save → auto restart 😍
+
+
+1️⃣3️⃣ nodemon kya hota hai?
+
+Answer:
+Server ko auto-restart karta hai.
+
+📌 Without nodemon:
+
+stop → start → stop → start 😡
+
+
+📌 With nodemon:
+
+save → auto restart 😍
+
+
+
+/////////////
+
+
+what is node js 
+
+Ans - Node js ek js run time environment hay jo js ko browser kay bhir b run karta hay especilalay serer side application kay lya 
+
+
+
+🧠 Simple Words (Asaan samajh)
+
+Pehle JavaScript sirf browser me chalti thi
+
+Node.js ne JavaScript ko computer / server par chalana possible bana diya
+
+
+❓ Interview Question 2
+Node.js language hai ya framework?
+✅ Answer
+
+Node.js na language hai aur na framework, balkay ek runtime environment hai.
+
+
+❓ Interview Question 8
+Node.js kis type ki apps ke liye best hai?
+✅ Answer
+
+REST APIs
+
+Real-time apps (chat, notification)
+
+Streaming apps
+
+Microservices
+
+
+❓ Interview Question 7
+Node.js kis engine par chalta hai?
+✅ Answer
+
+Node.js Google ke V8 JavaScript engine par based hai.
+
+
+
+❓ Interview Question 6
+Browser console me 2 + 5 aur terminal me kyun farq hai?
+🔹 Browser
+2 + 5
+// Output: 7
+
+
+Browser ke paas JS engine hota hai
+
+🔹 Terminal
+2 + 5
+
+
+❌ error — kyun?
+Terminal JS nahi samajhta
+
+🔹 Node ke sath
+node
+> 2 + 5
+7
+
+
+👉 kyun?
+Node.js ne JS ko terminal me samjha diya
+
+
+
+❓ Interview Question 4
+Blocking vs Non-Blocking kya hota hai?
+Blocking
+
+Kaam complete hone tak next kaam wait karta hai
+
+Non-Blocking (Node.js)
+
+Kaam background me chala jata hai
+
+next kaam turant start ho jata hai
+
+
+
+
+❓ Interview Question 3
+Node.js kaam kaise karta hai? (MOST IMPORTANT)
+✅ Interview Answer (Short)
+
+Node.js non-blocking, event-driven architecture par kaam karta hai jo asynchronous code ko efficiently handle karta hai.
+
+
+
+“Node.js ne JS ko computer / server par chalana possible bana diya” ka matlab?
+✅ Matlab:
+
+Node.js ne JavaScript ko browser ke ilawa bhi chalne ke qabil bana diya, jahan wo files, database aur network ke sath kaam kar sakti hai.
+
+🧠 ONE-LINE GOLDEN ANSWER (Yaad kar lo)
+
+Browser JavaScript sirf UI ke liye hoti hai, jab ke Node.js JavaScript ko server-side kaam ke liye powerful bana deta hai.
+
+
+
+🟢 30-Second Interview Answer (Perfect)
+
+Node.js ek JavaScript runtime environment hai jo browser ke bahar JavaScript run karne deta hai. Ye non-blocking, event-driven architecture par kaam karta hai jis se fast aur scalable server-side applications banti hain.
+
+
+
+
+Rule yaad rakho 👇
+
+secure: true → sirf HTTPS par kaam karta hai
+secure: false → HTTP par bhi kaam karta hai
+
+
+
+🔥 new: true kya karta hai?
+❌ Default behavior:
+new: false
+
+
+👉 Response me purana data milta hai
+
+✅ new: true
+
+👉 Response me updated (latest) data milta hai
+
+📌 Frontend ko updated data chahiye hota hai, is liye lagate hain
+
+🔥 runValidators: true kya karta hai?
+Problem:
+
+Update me schema validation by default nahi chalti
+
+Example schema:
+status: { enum: ["active", "inactive"] }
+
+Agar validator na ho:
+{ "status": "deleted" }
+
+
+❌ Save ho jayega (BAD)
+
+runValidators: true lagao:
+
+❌ MongoDB error dega
+❌ Invalid data reject ho jata hai
+
+📌 Production me bohot important

@@ -1,0 +1,117 @@
+❓ Interview Question
+
+JavaScript synchronous hai ya asynchronous ?
+
+✅ Short Interview Answer(yaad rakhne ke liye):
+
+JavaScript by default synchronous hoti hai, lekin asynchronous ka support bhi karti hai.
+
+1️⃣ JavaScript Synchronous kya hoti hai ?
+🔹 Simple meaning:
+
+Synchronous ka matlab hota hai
+👉 ek kaam complete ho, phir next kaam start ho
+
+📌 JavaScript line by line code run karti hai.
+
+✅ Example(Synchronous JavaScript):
+console.log("First");
+console.log("Second");
+console.log("Third");
+
+🔹 Output:
+First
+Second
+Third
+
+🧠 Samajh lo:
+
+Pehle "First"
+
+phir "Second"
+
+phir "Third"
+
+👉 Koi cheez skip nahi hui
+👉 Sab kaam order mein hua
+
+
+3️⃣ JavaScript Asynchronous kya hoti hai ?
+🔹 Simple meaning:
+
+Asynchronous ka matlab:
+👉 time lene wala kaam background mein chalay
+👉 baqi code rukay nahi
+
+✅ Example(Asynchronous):
+console.log("Start");
+
+setTimeout(() => {
+  console.log("Middle");
+}, 2000);
+
+console.log("End");
+
+🔹 Output:
+Start
+End
+Middle
+
+
+🧠 Samajh lo:
+
+"Start" print hua
+
+setTimeout background mein chala
+
+"End" turant print hua
+
+2 second baad "Middle"
+
+👉 JavaScript wait nahi karti
+
+
+
+6️⃣ Interview One-Liner (Yaad kar lo)
+
+Synchronous code block karta hai,
+asynchronous code background mein chalta hai
+aur JavaScript async kaam Web APIs aur Event Loop se handle karti hai.
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+
+////// promises 
+
+
+🔹 Promise kya hota hai? (Interview Answer)
+
+Interview Line (Short & Strong):
+
+Promise JavaScript ka object hota hai jo future mein kisi asynchronous task ka result represent karta hai — ya to success (resolve) ya failure (reject).
+
+Asaan Urdu:
+Promise ka matlab hota hai “waada”.
+JavaScript kehta hai:
+
+“Abhi result nahi mila, lekin baad mein ya to data milega ya error.”
+
+
+Interview Question: Promise ki kitni states hoti hain?
+
+Answer:
+Promise ki 3 states hoti hain:
+
+1️⃣ Pending → kaam chal raha hai
+2️⃣ Fulfilled (Resolved) → kaam successful
+3️⃣ Rejected → error aa gaya
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+//////RTK 
+
+
